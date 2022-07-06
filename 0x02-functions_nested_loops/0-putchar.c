@@ -13,7 +13,7 @@ int main(void)
 	while (*sh)
 	{
 		_putchar(*sh);
-		sh++:
+		sh++;
 	}
 
 	_putchar('\n');
