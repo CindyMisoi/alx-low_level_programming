@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-	char *sh = "main";
+	char c = "main";
 
-	while (*sh)
+	while (c)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(c);
+		c++;
 	}
 
 	_putchar('\n');
