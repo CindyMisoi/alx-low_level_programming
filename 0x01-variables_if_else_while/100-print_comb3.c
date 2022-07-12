@@ -10,7 +10,7 @@
 int main(void)
 {
 	int d;
-	
+
 	for (d = 0; d < 100; d++)
 	{
 		putchar((d / 10) + '0');
@@ -21,7 +21,7 @@ int main(void)
 			putchar(' ');
 		}
 	}
-		putchar('\n');
-	
+		putchar('\n');	
+
 		return (0);
 }
