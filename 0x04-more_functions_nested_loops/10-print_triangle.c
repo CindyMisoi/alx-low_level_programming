@@ -23,8 +23,9 @@ void print_triangle(int size)
 			}
 			for (tr = 0; tr <= ro; tr++)
 			{
-				_putchar('#');}
-			_putchar('\');
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
 	}
 }
