@@ -25,7 +25,7 @@ int _strlen(char *str)
 int check_palindrome(int l, int r, char *p)
 {
 	if (l >= r)
-		retrun (1);
+		return (1);
 	else if (p[l] != p[r])
 		return (0);
 	else
